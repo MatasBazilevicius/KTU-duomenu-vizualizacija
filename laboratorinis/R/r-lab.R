@@ -1,6 +1,5 @@
 data = read.csv("../data/lab_sodra.csv")
 data = subset(data, data$ecoActCode == 	460000)
-install.packages("ggplot2")
 library(ggplot2)
 
 ggplot(data, aes(x = avgWage)) +
@@ -9,7 +8,7 @@ ggplot(data, aes(x = avgWage)) +
   xlab("Average wage") +
   ylab("Frequency")
 
-result = data %>%
+top5 = data %>%
   group_by(code) %>%
   filter(!is.na(avgWage)) %>%
   filter(avgWage == max(avgWage)) %>%
