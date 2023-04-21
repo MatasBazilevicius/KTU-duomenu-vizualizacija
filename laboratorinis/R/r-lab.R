@@ -1,6 +1,7 @@
 data = read.csv("../data/lab_sodra.csv")
 data = subset(data, data$ecoActCode == 	460000)
 library(ggplot2)
+library(tidyverse)
 
 ggplot(data, aes(x = avgWage)) +
   geom_histogram(binwidth = 100, fill = "blue", color = "black") + 
