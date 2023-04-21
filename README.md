@@ -35,5 +35,5 @@ Išvados:
 
 Shiny R aplikacijos nuotrauka:
 
-![shiny app](img/Screenshot_4.PNG)
+![shiny app](img/Screenshot_4.png)
 
