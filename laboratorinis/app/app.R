@@ -1,7 +1,5 @@
 data = read.csv("../data/lab_sodra.csv")
 data = subset(data, data$ecoActCode == 	460000)
-install.packages("ggplot2")
-install.packages("shiny")
 library(shiny)
 library(ggplot2)
 
