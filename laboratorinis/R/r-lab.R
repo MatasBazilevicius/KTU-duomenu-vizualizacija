@@ -9,7 +9,12 @@ ggplot(data, aes(x = avgWage)) +
   xlab("Average wage") +
   ylab("Frequency")
 
-top5 = data[order(data$avgWage , decreasing = TRUE), ][1:5, ]
+result = data %>%
+  group_by(code) %>%
+  filter(!is.na(avgWage)) %>%
+  filter(avgWage == max(avgWage)) %>%
+  ungroup()
+
 top5data = subset(data, name %in% top5$name)
 ggplot(top5data, aes(x = month, y = avgWage, group = name, color = name)) +
   geom_line() +
