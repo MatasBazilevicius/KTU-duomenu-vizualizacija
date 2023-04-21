@@ -9,7 +9,7 @@
 
 Atsakymas:
 
-![histograma](img/Screenshot_1.png)
+![histograma](labaratorinis/img/Screenshot_1.png)
 
 Išvados:
 
@@ -17,7 +17,7 @@ Išvados:
 
 Atsakymas:
 
-![atlyginimai](img/Screenshot_2.png)
+![atlyginimai](labaratorinis/img/Screenshot_2.png)
 
 Išvados:
 
@@ -26,7 +26,7 @@ Išvados:
 
 Atsakymas:
 
-![apdraustieji](img/Screenshot_3.png)
+![apdraustieji](labaratorinis/img/Screenshot_3.png)
 
 Išvados:
 
@@ -35,5 +35,5 @@ Išvados:
 
 Shiny R aplikacijos nuotrauka:
 
-![shiny app](img/Screenshot_4.png)
+![shiny app](labaratorinis/img/Screenshot_4.png)
 
